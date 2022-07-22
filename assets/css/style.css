@@ -6,4 +6,61 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* ------- HEADER --------- */
+header {
+	display: flex;
+}
+
+header section {
+	display: flex;
+	height: 40px;
+	margin-top: 3vh;
+}
+
+.logo {}
+
+.wolke {
+	width: 100vw;
+}
+
+.wolke img {
+	width: 60%;
+	position: absolute;
+	right: 0;
+	z-index: -1;
+}
+
+/*  -------- MAIN ---------- */
+
+.marginleft {
+	margin-left: 10vw;
+}
+
+.heroheadline article {
+	margin-top: 20%;
+	max-width: 450px;
+}
+
+.heroheadline article h1 {
+	font-size: 50px;
+	padding-bottom: 2%;
+}
+
+.heroheadline article p {
+	line-height: 25px;
+}
+
+.heroheadline article p:last-child {
+	font-size: 12px;
+	font-weight: 500;
+	color: #ff3571;
+	margin-top: 30%;
+}
+
+.emoji {
+	height: 30px;
 }
