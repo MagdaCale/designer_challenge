@@ -17,9 +17,7 @@ h2 {
 	font-size: 4rem;
 }
 
-h3 {
 
-}
 
 h4 {
 	font-size: 20px;
@@ -256,7 +254,7 @@ input {
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-#btn {
+button {
 	width: 15vw;
 	font-size: 15px;
 	height: 7vh;
@@ -267,11 +265,12 @@ input {
 	margin-bottom: 10vh;
 }
 
-#btn:hover {
+button:hover {
 	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 	background: rgb(255, 53, 113);
 	background: linear-gradient(36deg, rgb(255, 53, 113) 35%, rgba(8,3,99,1) 100%);
 }
+
 
 /* **************** FOOTER **************** */
 
